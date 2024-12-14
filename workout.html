@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="workout.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+
+    <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+
+    <header>
+        <h1>Fitness Tracker</h1>
+    </header>
+
+    <nav id="sidebar">
+        <header>MENU</header>
+        <ul>
+            <li><a href="dashboard.html"><i class="fas fa-home"></i>DASHBOARD</a></li>
+            <li><a href="workout.html"><i class="fas fa-dumbbell"></i>WORKOUTS</a></li>
+            <li><a href="nutrition.html"><i class="fas fa-apple-alt"></i>NUTRITION</a></li>
+            <li><a href="progress.html"><i class="fas fa-chart-line"></i>PROGRESS</a></li>
+            <li><a href="community.html"><i class="fas fa-users"></i>COMMUNITY</a></li>
+            <li><a href="profile.html"><i class="fas fa-user-circle"></i>PROFILE</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="categories">
+            <div class="category yoga">
+                <img src="LOGOS/YOGA LOGO.jpg" alt="Yoga Icon">
+                <a href="yoga.html"><h2>Yoga</h2></a>
+                <p>Relax and stretch with guided yoga sessions.</p>
+            </div>
+            <div class="category gym">
+                <img src="LOGOS/GYM LOGO.jpg" alt="Gym Icon">
+                <h2>Gym</h2>
+                <p>Power your strength and fitness with gym routines.</p>
+            </div>
+            <div class="category sports">
+                <img src="LOGOS/SPORTS LOGO.png" alt="Sports Icon">
+                <a href="sports.html"><h2>Sports</h2></a>
+                <p>Boost your endurance with sports activities.</p>
+            </div>
+            <div class="category cardio">
+                <img src="LOGOS/CARDIO LOGO.webp" alt="Cardio Icon">
+                <h2>Cardio</h2>
+                <p>Elevate your heart rate with high-energy cardio.</p>
+            </div>
+            <div class="category meditation">
+                <img src="LOGOS/MEDI LOGO.webp" alt="Meditation Icon">
+                <h2>Meditation</h2>
+                <p>Calm your mind with guided meditation.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fitness Tracker. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
